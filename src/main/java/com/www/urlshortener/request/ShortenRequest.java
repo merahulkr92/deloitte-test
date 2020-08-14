@@ -1,10 +1,16 @@
 package com.www.urlshortener.request;
 
-public class ShortenRequest {
+public class ShortenRequest  {
+
 	private String url;
+
 	public ShortenRequest(String url) {
-		this.url=url;
+		this.url = url;
 	}
+
+	public ShortenRequest() {
+	}
+
 	public String getUrl() {
 		return url;
 	}

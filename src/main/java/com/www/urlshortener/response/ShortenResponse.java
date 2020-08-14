@@ -19,6 +19,9 @@ public class ShortenResponse {
 		setStatus(status);
 	}
 
+	public ShortenResponse() {
+	}
+
 	public Long getUrlId() {
 		return urlId;
 	}

@@ -26,7 +26,7 @@ public class UrlShortenerController {
 	@Autowired
 	private ShortenerApplicationService shortenerApplicationService;
 
-	@PostMapping("/")
+	@PostMapping
 	public ShortenResponse shorten(@RequestBody ShortenRequest request) throws IOException {
 		return shortenerApplicationService.shorten(request.getUrl());
 	}
